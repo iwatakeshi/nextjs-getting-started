@@ -9,6 +9,6 @@ const layoutStyle = {
 export default (props) => (
     <div style={layoutStyle}>
         <Header />
-       
+        {props.children}
     </div>
 )
