@@ -1,0 +1,27 @@
+{
+  "name": "nextjs-getting-started",
+  "version": "1.0.0",
+  "description": "Learning how to use Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwatakeshi/nextjs-getting-started.git"
+  },
+  "keywords": [],
+  "author": "iwatakeshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iwatakeshi/nextjs-getting-started/issues"
+  },
+  "homepage": "https://github.com/iwatakeshi/nextjs-getting-started#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
