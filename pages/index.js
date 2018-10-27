@@ -1,12 +1,7 @@
-import Link from "next/link";
+import Layout from "../components/Layout";
 
-export default (function index () {
-    return () => (
-        <div>
-            <Link href="/about">
-            <button>Go to About Page</button>
-            </Link>
-            <p>Hello Next.js</p>
-        </div>
-    )
-})()
+export default () => (
+    <Layout>
+        <p>Hello from Next.js</p>
+    </Layout>
+)
